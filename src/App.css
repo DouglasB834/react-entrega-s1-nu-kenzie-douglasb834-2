@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap');
+
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video ,button{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Nunito', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button {    -webkit-appearance: none;    margin: 0;}input[type="number"] {    -moz-appearance: textfield;}
+
+:root{
+    --color-primary:#FD377E;
+    --color-primary-2: #E34981;
+    --color-secondary: #03B898;
+
+    /* Gray color */
+    --gray-4:#212529;
+    --gray-3:#868E96;
+    --gray-2:#E9ECEF;
+    --gray-1:#F8F9FA;
+
+    --title1: 2rem;
+    --title2: 24px;
+    --title3: 12px;
+    --title4: 16px;
+
+    /* btns */
+    --btn1 : 13px 20px;
+    --bt-1: var(var(--Color-primary)) (var(--bt-1))
+    --mini-btn: padding: 15px;
+    
+    --ulwidth:560px;
+
+}
+
+.entrada{
+   background-color: #03B898;
+}
+
+.saida{
+  background-color: red;
+}
