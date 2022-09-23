@@ -7,10 +7,17 @@ flex-wrap: wrap;
 `
 
 export const DivCondicao = styled.div`
-    background-color: var(--color-secondary);
     height: 109px;
     width: 3px;
     border-radius: 5px 0 0 5px ;
+
+    .teste{
+        background-color: red;
+    }
+    .teste2{
+        background-color: red;
+
+    }
 
 `
 

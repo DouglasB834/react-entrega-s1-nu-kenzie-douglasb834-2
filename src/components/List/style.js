@@ -30,6 +30,8 @@ align-items: center;
 margin: 2rem auto;
 border-radius: 5px;
 
+
+
 div  .btnTodos{
     background-color: var(--color-primary);
     padding: .7rem .9rem;

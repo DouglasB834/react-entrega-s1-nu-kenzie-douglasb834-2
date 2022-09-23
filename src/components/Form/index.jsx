@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import Total from '../Total'
 import { TagDiv } from './style'
 
-const Form =({setTransaction, children})=> {
+const Form =({setTransaction,transaction, children})=> {
+
   const [description, setDescription]   = useState("");
-  const [type, setType]   = useState("entrada");
-  const [value, setValue] = useState("");
+  const [type, setType]                 = useState("entrada");
+  const [value, setValue]               = useState("");
 
   const  handleSubmit = ()=>{
      setTransaction ((old) => [...old, {description, type, value}]);
@@ -14,10 +14,11 @@ const Form =({setTransaction, children})=> {
      setValue("");    
     };
 
-    
+  
   return (
     <TagDiv className='div__container'>
       <form onSubmit={(event)=> handleSubmit(event.preventDefault())}> 
+
           <div className='desc'>
             <label name="desc">Descrição
             <input  type="text" placeholder='Digite aqui sua descrição' required value={description} onChange={(event)=> setDescription(event.target.value) }/>

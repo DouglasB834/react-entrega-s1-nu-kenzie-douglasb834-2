@@ -85,6 +85,9 @@ input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-in
 }
 
 .miniBtn{
-    padding: 13px 20px ;
-    background-color: var(--gray-1);
+   background-color: #03B898;
+}
+
+.testediv{
+  background-color: red;
 }
