@@ -70,7 +70,7 @@ input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-in
     --gray-2:#E9ECEF;
     --gray-1:#F8F9FA;
 
-    --title1: 28px;
+    --title1: 2rem;
     --title2: 24px;
     --title3: 12px;
     --title4: 16px;
@@ -84,10 +84,10 @@ input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-in
 
 }
 
-.miniBtn{
+.entrada{
    background-color: #03B898;
 }
 
-.testediv{
+.saida{
   background-color: red;
 }

@@ -1,4 +1,3 @@
-
 import { Card } from '../Card'
 import { DivBtnList, TagUl } from './style'
 import { useEffect, useState } from 'react'

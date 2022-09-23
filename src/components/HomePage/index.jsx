@@ -6,7 +6,7 @@ const HomePage =({setPage})=> {
 
   return (
 
-    <HomepageStyle className="container">
+    <HomepageStyle>
         <div className="leyout">
 
             <h2><span>Nu</span> Kenzie</h2>

@@ -10,12 +10,14 @@ export const HomepageStyle = styled.div`
     align-items: center;
 
 .leyout{
-    display: flex;
-    flex-direction: column;
+    gap: 2rem;
     width: 347px;
+    display: flex;
+    margin-top: 2rem;
     color: var(--gray-1);
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -26,13 +28,15 @@ export const HomepageStyle = styled.div`
 
 .leyout >h2{
     font-size: 1.3rem;
+    font-weight: 700 ;
     color: var(--gray-2);
 }
 .leyout >h2 >span{
     color: var(--color-primary);
 }
 .leyout h1{
-    font-size: 2rem;
+    font-weight: 800;
+ font-size: var( --title1);
 }
 
 
@@ -55,16 +59,18 @@ export const HomepageStyle = styled.div`
 }
 
 .figure{
-    display: flex;
     width: 593px;
+    display: flex;
+    justify-content: center;
+}
+.figure img{
+ width: 90%;
 }
 
 
 
 @media screen and (max-width: 740px){
-    .container{
-        flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
 }
 
 `

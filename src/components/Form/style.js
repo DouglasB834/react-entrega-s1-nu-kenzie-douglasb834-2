@@ -52,7 +52,13 @@ select option{
     display: flex;
     align-items: center;
     width: 50%;
-background-color: var(--gray-1);
+    background-color: var(--gray-1);
+}
+
+.ul__valor >div {
+    display: flex;
+    background-color: var(--gray-1);
+    height: 40px;
 }
 
 .div__box_valores{

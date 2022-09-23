@@ -4,20 +4,22 @@ import trash from "../../img/trash.png"
 
 export const Card =({element,hendleDelet})=>{
 
-
     return(
 
         <DivContainer>
-        <DivCondicao className={element.type ==="entrada"? "miniBtn": "testediv" }/>
+        <DivCondicao className={element.type ==="entrada" ? "entrada": "saida" }/>
       
         <CardLi>
+            
             <div className="div__extato">
+               
                 <p>{element.description}</p>
-                <span>R${element.type === "entrada"? element.value : `-${element.value }`}</span>
+                <div>
+                <span>R${element.type === "entrada"? element.value : `-${element.value }`}</span>                
                 <button>
-                <img src={trash} alt="" onClick={()=> hendleDelet(element)}/>
-                
-                </button>           
+                <img src={trash} alt="" onClick={()=> hendleDelet(element)}/>                
+                </button> 
+                </div>
             </div>
             <span>{element.type}</span>
             

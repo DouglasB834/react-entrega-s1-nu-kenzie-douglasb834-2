@@ -30,7 +30,10 @@ const Form =({setTransaction,transaction, children})=> {
               <div className='values'>
               <p>valor</p>
               <div className='ul__valor'>
-              <input type="number" required value={value} onChange={(event)=> setValue(Number(event.target.value))} /><span>R$</span>
+              <input type="number" required value={value} onChange={(event)=> setValue(Number(event.target.value))} />
+              <div>
+              <span>R$</span>
+              </div>
               </div>
           </div>
 

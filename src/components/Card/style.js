@@ -11,14 +11,6 @@ export const DivCondicao = styled.div`
     width: 3px;
     border-radius: 5px 0 0 5px ;
 
-    .teste{
-        background-color: red;
-    }
-    .teste2{
-        background-color: red;
-
-    }
-
 `
 
 export const CardLi = styled.li`
@@ -58,6 +50,13 @@ export const CardLi = styled.li`
     }
     .div__extato button:active{
         background-color: var(--color-primary);
+    }
+
+    .div__extato > div{
+        width: 27%;
+        display: flex;
+        justify-content: space-between;
+
     }
 
     > span{

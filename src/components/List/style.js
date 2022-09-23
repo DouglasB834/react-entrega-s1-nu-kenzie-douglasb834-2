@@ -14,7 +14,8 @@ margin: auto;
     width: 22rem;   
 }
 @media ( max-width: 375px){
-    width: 16rem;   
+    width: 16rem;  
+  
 }
 `
 
@@ -32,7 +33,17 @@ border-radius: 5px;
 
 
 
+button:focus{
+    background-color: var(--color-primary);
+    color: var(--gray-1);
+}
+
+>p{
+    font-weight: 700;
+}
+
 div  .btnTodos{
+    
     background-color: var(--color-primary);
     padding: .7rem .9rem;
     border-radius: 7px;
@@ -45,6 +56,7 @@ div .btnFilter{
     padding: .9rem;
     margin-left: 10px;
     border-radius: 5px;
+    font-weight: 500;
 }
 
 div .btnFilter:hover{
@@ -52,6 +64,18 @@ div .btnFilter:hover{
     color: var(--gray-1);
 
 }
+
+@media ( max-width: 375px){
+    div{
+        display: flex;
+    }
+    button{
+        height: 30px;
+        font-size: 50%;
+    }
+  
+}
+
 
 
 `

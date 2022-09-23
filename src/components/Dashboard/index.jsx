@@ -13,7 +13,7 @@ export const DashBoard =({setPage})=> {
   const [transaction, setTransaction ] = useState([
 
     { description: "Salário recebido", type: "entrada", value: 2500 },
-    { description: "Conta de luz", type: "saida", value: 150 }
+    { description: "Conta de luz", type: "saida", value: 150 },
     
   ])
 
