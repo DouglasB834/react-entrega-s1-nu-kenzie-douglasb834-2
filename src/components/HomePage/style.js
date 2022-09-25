@@ -1,15 +1,14 @@
-import styled  from "styled-components"
-
+import styled from "styled-components";
 
 export const HomepageStyle = styled.div`
-    display: flex;
-    background-color: var(--gray-4);
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  background-color: var(--gray-4);
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
-.leyout{
+  .leyout {
     gap: 2rem;
     width: 347px;
     display: flex;
@@ -18,33 +17,32 @@ export const HomepageStyle = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-}
+  }
 
-
-.leyout > img{
+  .leyout > img {
     /* width: auto; */
-    
-}
+  }
 
-.leyout >h2{
+  .leyout > h2 {
     font-size: 1.3rem;
-    font-weight: 700 ;
+    font-weight: 700;
     color: var(--gray-2);
-}
-.leyout >h2 >span{
+  }
+  .leyout > h2 > span {
     color: var(--color-primary);
-}
-.leyout h1{
+  }
+  .leyout h1 {
     font-weight: 800;
- font-size: var( --title1);
-}
+    font-size: var(--title1);
+  }
 
+  .leyout > span {
+  }
 
-.leyout >span{}
+  .leyout .btnInicar {
+  }
 
-.leyout .btnInicar{}
-
-.leyout .btnIniciar > button{
+  .leyout .btnIniciar > button {
     background-color: var(--color-primary);
     color: var(--gray-1);
     margin-top: 1rem;
@@ -52,26 +50,21 @@ export const HomepageStyle = styled.div`
     width: 241px;
     border-radius: 5px;
     cursor: pointer;
-    
-}
-.leyout .btnIniciar > button:hover{
+  }
+  .leyout .btnIniciar > button:hover {
     background-color: var(--color-primary-2);
-}
+  }
 
-.figure{
+  .figure {
     width: 593px;
     display: flex;
     justify-content: center;
-}
-.figure img{
- width: 90%;
-}
+  }
+  .figure img {
+    width: 90%;
+  }
 
-
-
-@media screen and (max-width: 740px){
+  @media screen and (max-width: 740px) {
     flex-wrap: wrap;
-}
-
-`
-
+  }
+`;
