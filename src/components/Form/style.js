@@ -1,128 +1,124 @@
 import styled from "styled-components";
 
 export const TagDiv = styled.div`
+  display: flex;
+  height: 80vh;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-display: flex;
-    height: 80vh;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-form{
+  form {
     width: 100%;
     height: 351px;
     max-width: 363px;
     border: solid 2px var(--gray-2);
-    margin-top: 2rem;    
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
     border-radius: 5px;
-}
+  }
 
-.desc{
+  .desc {
     display: flex;
     flex-direction: column;
-    gap: .9rem;
+    gap: 0.9rem;
     padding: 1rem;
     width: 90%;
     margin: 0 auto;
-}
-.desc label{
+  }
+  .desc label {
     text-align: start;
-    font-size: .7rem;
-}
+    font-size: 0.7rem;
+  }
 
-.desc input ,select{
+  .desc input,
+  select {
     width: 90%;
     outline: none;
     border: none;
-    padding:  1rem;
+    padding: 1rem;
     border-radius: 5px;
     outline: none;
-    background-color: var(--gray-1);   
-}
+    background-color: var(--gray-1);
+  }
 
-select option{
+  select option {
     background-color: var(--gray-2);
-}
+  }
 
-.ul__valor{
+  .ul__valor {
     display: flex;
     align-items: center;
     width: 50%;
     background-color: var(--gray-1);
-}
+  }
 
-.ul__valor >div {
+  .ul__valor > div {
     display: flex;
     background-color: var(--gray-1);
     height: 40px;
-}
+    align-items: center;
+  }
 
-.div__box_valores{
+  .div__box_valores {
     display: flex;
     width: 90%;
     margin: 0 auto;
     gap: 1rem;
-}
+  }
 
-.div__box_valores .values{
+  .div__box_valores .values {
     width: 90%;
     margin-top: 1rem;
-}
+  }
 
-.div__box_valores .values p{
+  .div__box_valores .values p {
     margin-bottom: 6px;
     text-align: start;
-    font-size: .9rem;
-}
+    font-size: 0.9rem;
+  }
 
-.div__box_valores .values input{
-    width :100px;
+  .div__box_valores .values input {
+    width: 100px;
     height: 40px;
     border: none;
     outline: none;
     background-color: var(--gray-1);
     border-radius: 5px;
-    transition: .2 linear;
-}
-.values input:focus{
-    border: solid  1px var(--gray-4);
+    transition: 0.2 linear;
+  }
+  .values input:focus {
+    border: solid 1px var(--gray-4);
+  }
 
-}
-
-button{
+  button {
     margin-top: 2.5rem;
     padding: 14px 20px;
     border-radius: 5px;
     background-color: var(--color-primary);
     color: var(--gray-1);
-    transition: .2s linear;
+    transition: 0.2s linear;
     cursor: pointer;
-    
-}
-button:hover{
+  }
+  button:hover {
     background-color: var(--color-primary-2);
-}
-button:active{
+  }
+  button:active {
     background-color: var(--gray-3);
     color: var(--gray-1);
-}
+  }
 
-@media (max-width: 1007px) {
+  @media (max-width: 1007px) {
     width: 85%;
     max-width: 90%;
     padding: none;
-    
-}
+  }
 
-/* @media (max-width: 600px) {
+  /* @media (max-width: 600px) {
     height: 80vh;
     width: 90%;
     
 } */
-
-`
-
+`;

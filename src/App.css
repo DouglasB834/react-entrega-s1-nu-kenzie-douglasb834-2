@@ -74,6 +74,11 @@ input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-in
     --title2: 24px;
     --title3: 12px;
     --title4: 16px;
+    --title: {
+      font-size: 1.5rem;,
+      font-weight: 700;
+
+    }
 
     /* btns */
     --btn1 : 13px 20px;
@@ -90,4 +95,13 @@ input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-in
 
 .saida{
   background-color: red;
+}
+
+.titulo{
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: start;
+  margin-bottom: .5rem;
+  border-bottom: solid 1px var(--gray-3) 
+
 }

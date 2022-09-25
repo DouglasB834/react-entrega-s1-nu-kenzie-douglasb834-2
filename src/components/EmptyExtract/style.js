@@ -1,23 +1,28 @@
 import styled from "styled-components";
 
 export const Tagli = styled.li`
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  margin: auto;
 
-margin-bottom:2rem ;
-border-radius: 5px;
+  > h2 {
+    text-align: start;
+  }
 
+  img {
+    height: 100px;
+    width: 100%;
+  }
 
-margin: auto;
-
-
-@media ( max-width: 720px){
+  @media (max-width: 720px) {
     margin: auto;
-  
-   img{
-    width:100% ;
-   }
-}
-@media ( max-width: 375px){
-    width: 16rem;   
-}
 
-`
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    width: 16rem;
+  }
+`;

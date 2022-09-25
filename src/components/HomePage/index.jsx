@@ -18,6 +18,7 @@ const HomePage =({setPage})=> {
 
             </div>
         </div>
+        
         <figure className="figure">
             <img src={Group} alt="" />
         </figure>
