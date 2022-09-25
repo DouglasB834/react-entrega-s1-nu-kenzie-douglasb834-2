@@ -51,6 +51,8 @@ export const CardLi = styled.li`
   .div__extato > div {
     width: 27%;
     display: flex;
+    gap: .3rem;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -67,5 +69,6 @@ export const CardLi = styled.li`
     .div__extato {
       width: 79%;
     }
+
   }
 `;

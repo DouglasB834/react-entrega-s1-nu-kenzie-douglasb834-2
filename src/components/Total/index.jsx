@@ -13,5 +13,4 @@ const Total = ({transaction}) => {
     </DivTotal>
   )
 }
-
 export default Total
